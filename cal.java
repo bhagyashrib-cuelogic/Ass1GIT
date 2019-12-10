@@ -15,6 +15,10 @@ class cal
 	public int MultiplicationCal(int x,int y)
 	{
 	 return mul=x*y;
+  }
+	public int SubtractionCal(int x,int y)
+	{
+	 return sub=x-y;
 	}
 }
 
@@ -32,6 +36,8 @@ public static void main(String[] arg)
 	c.AdditinCal(a,b);
 	c.MultiplicationCal(a,b);
 	System.out.println("Addition of two numbers is : "+c.res);
-	System.out.println("Multiplication of two numbers is : "+c.mul);
+	System.out.println("Multiplication of two numbers is : "+c.mul)
+	c.SubtractionCal(a,b);
+	System.out.println("Subtraction of two numbers is : "+c.sub);
 }
 }
