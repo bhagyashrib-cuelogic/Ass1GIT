@@ -13,7 +13,14 @@ class cal
 	}
 	public int SubtractionCal(int x,int y)
 	{
-	 return sub=x-y;
+	    if(x>=y)
+	     {
+	        return sub=x-y;
+	     }
+	    else
+	     {
+		 return sub=y-x;
+	     }
 	}
 }
 
