@@ -6,6 +6,7 @@ class cal
 
 {
 	int res=0;
+	int sub=0;
 	public int AdditinCal(int x,int y)
 	{
 	 return res=x+y;
